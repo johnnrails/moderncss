@@ -1,0 +1,22 @@
+.container {
+  max-width: 80ch;
+  margin-inline: auto;
+
+  > * {
+    margin-block: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.box {
+  display: grid;
+  place-content: center;
+  padding: 1.5rem;
+  background-color: #e0d4f6;
+  color: #675883;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.2rem;
+  border: 1px dashed;
+}
